@@ -47,5 +47,10 @@ const SecondYearEe = [
     {sub:"Power system",link:"https://drive.google.com/drive/folders/1Gzay33X7htOjR5P3xxtGeTa6DSt4GlZM?usp=share_link" },
     
 ]
+const SecondYearEce=[
+    {sub:"second",},
+    {sub:"thrid",},
+    {sub:"forth",},
+]
 
-export {SecondYearCse, SecondYearMe , SecondYearCe,SecondYearEe}
+export {SecondYearCse, SecondYearMe , SecondYearCe,SecondYearEe,SecondYearEce}

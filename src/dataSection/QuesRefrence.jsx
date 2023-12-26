@@ -95,6 +95,13 @@ import axios from 'axios'
     return(
         
         <>
+        {/* 1st year */}
+        {
+        (year === "1" && curYear === "first") &&
+        (
+          <p>First</p>
+        )
+      }
  {
         (year === "2" && curYear === "cse") &&
         
@@ -156,6 +163,13 @@ import axios from 'axios'
         })
         
     }
+    {
+        (year === "2" && curYear === "ece") &&
+        (
+          <p>Second</p>
+        )
+      }
+     
         
 
 
@@ -215,6 +229,12 @@ import axios from 'axios'
         })
         
     }
+    {
+        (year === "3" && curYear === "ece") &&
+        (
+          <p>Third</p>
+        )
+      }
        
 
 
@@ -276,6 +296,12 @@ import axios from 'axios'
         })
         
     }
+    {
+        (year === "4" && curYear === "ece") &&
+        (
+          <p>hi</p>
+        )
+      }
       
       </>
   )
